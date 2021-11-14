@@ -1,0 +1,42 @@
+.menuMain {
+  display: flex;
+}
+
+.menuItem {
+margin-right: 5px;
+}
+
+.menuMainLink {
+  box-shadow: none;
+  color:white;
+  text-transform: none;
+  font-size: 16px;
+  padding: 6px 12px;
+  border: 1px solid #0063cc ;
+  line-height: 1.5;
+  background-color: #0063cc;
+  border-radius: 5px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #0069d9;
+    color:red;
+    border-color: #0062cc;
+    box-shadow: none;
+  }
+
+  &:active {
+    color:red;
+    box-shadow: none;
+    background-color: #0062cc;
+    border-color: #005cbf;
+  }
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+};
+
+
+.menuLink_active {
+  color: red;
+}

@@ -1,0 +1,8 @@
+.contactList_item {
+  font-size: 18px;
+  margin-top: 10px;
+
+  &:not(:last-child) {
+  margin-bottom: 15px;
+}
+}
